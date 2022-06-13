@@ -11,9 +11,9 @@ const sendEmail = (datos) => {
     });
 
     const message = {
-        from: 'relme35rd.academica@gmail.com',
+        from: 'correo@gmail.com',
         to: datos.correo,
-        subject: 'Carta de Reconocimiento',
+        subject: 'Asunto',
         attachments: [
             { 
                 filename: datos.archivo,
