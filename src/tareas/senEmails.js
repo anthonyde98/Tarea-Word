@@ -5,8 +5,8 @@ const sendEmail = (datos) => {
     let transport = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'relme35rd.academica@gmail.com',
-            pass: 'CLAMEDrelme35'
+            user: 'correo@gmail.com',
+            pass: 'contrasena'
         }
     });
 
